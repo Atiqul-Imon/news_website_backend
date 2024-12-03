@@ -1,7 +1,9 @@
+# Ignore all environment files
 *.env
 .env
 .env.*
 
-/.vscode
-/node_modules
-./dist
+# Ignore specific directories
+.vscode/
+node_modules/
+dist/
